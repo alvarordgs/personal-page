@@ -1,0 +1,32 @@
+:root {
+  --black: hsl(0, 0, 0);
+  --white: hsl(0, 0, 100);
+  --gray: hsl(175, 12, 36);
+  --p-base: hsl(173, 100, 47);
+  --p-dark: hsl(174, 100, 9);
+  --s-base: hsl(173, 100, 38);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.p-base {
+  color: var(--p-base);
+}
+
+.p-dark {
+  color: var(--p-dark);
+}
+
+.s-base {
+  color: var(--s-base);
+}
