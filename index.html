@@ -8,7 +8,7 @@
   <title>Álvaro Rodrigues - Portifólio</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,21 +17,46 @@
 </head>
 
 <body>
-  <header class="header-bg">
-    <div class="header container">
-      <div>
-        <img src="./assets/imgs/logo-alvaro.svg" alt="Logo Portifólio">
-      </div>
-      <nav aria-label="Primária">
-        <ul class="header-menu font-1-m white">
-          <li><a href="./">Sobre mim</a></li>
-          <li><a href="./">Projetos</a></li>
-          <li><a href="./">Tecnologias</a></li>
-          <li><a href="./">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="menu">
+    <nav aria-label="Primária">
+      <ul class="menu-lista font-1-m js-menu">
+        <li>
+          <a href="#about-me">
+            <img src="./assets/icons/about-me.svg">
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            <img src="./assets/icons/projects.svg">
+          </a>
+        </li>
+        <li>
+          <a href="#skills">
+            <img src="./assets/icons/skills.svg">
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <img src="./assets/icons/contact.svg">
+          </a>
+        </li>
+        <div class="indicator"></div>
+      </ul>
+    </nav>
   </header>
+
+  <div class="about-me-bg">
+    <section class="about-me">
+      <div class="about-avatar">
+        <img src="./assets/imgs/avatar.png" alt="Avatar South Park Álvaro">
+      </div>
+      <div class="about-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste atque totam quam nobis tempore autem magni vitae ea. Ducimus minima eaque voluptatum qui voluptas nihil natus. Ratione, culpa itaque?
+      </div>
+    </section>
+  </div>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

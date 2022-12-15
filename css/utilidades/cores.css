@@ -1,0 +1,32 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #506664;
+    --p-base: #00f2d5;
+    --p-dark: rgb(0, 46, 41);
+    --s-base: rgb(0, 194, 171);
+}
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.p-base {
+    color: var(--p-base);
+}
+
+.p-dark {
+    color: var(--p-dark);
+}
+
+.s-base {
+    color: var(--s-base);
+}
