@@ -1,0 +1,39 @@
+.about-me-bg {
+    background: #1e1e1e;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 40px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.about-avatar {
+    justify-self: center;
+}
+
+.about-avatar img {
+    max-height: 300px;
+}
+
+.about-content h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.about-content h1 span {
+    color: var(--p-base);
+}
+
+.about-content p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #ffffff;
+}

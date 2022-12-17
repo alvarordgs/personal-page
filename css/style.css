@@ -9,3 +9,6 @@
 
 /*About Me*/
 @import "./secoes/about-me.css";
+
+/* Projects */
+@import "./secoes/projects.css";
