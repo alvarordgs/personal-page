@@ -2,18 +2,20 @@
     position: fixed;
     left: calc(50% - 150px);
     margin-top: 40px;
+    z-index: 97;
 }
 
 .menu-lista {
     max-width: 300px;
     display: flex;
-    background: #00b39f;
+    background: var(--s-base);
     border-radius: 30px;
     position: relative;
+    z-index: 97;
 }
 
 .menu-lista li {
-    z-index: 3;
+    z-index: 99;
 }
 
 .menu-lista li a {
@@ -21,11 +23,6 @@
     padding: 12px 24px;
     cursor: pointer;
 }
-
-/* .menu-lista li.ativo {
-    background: #00a08e;
-    border-radius: 30px;
-} */
 
 .menu-lista li a img {
     width: 25px;
@@ -37,7 +34,7 @@
     width: 73px;
     height: 49px;
     border-radius: 30px;
-    z-index: 2;
+    z-index: 98;
     transition: 0.3s;
 }
 

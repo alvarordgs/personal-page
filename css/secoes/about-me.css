@@ -1,5 +1,5 @@
 .about-me-bg {
-    background: #1e1e1e;
+    background: #111111;
 }
 
 .about-me {
@@ -36,4 +36,38 @@
     font-size: 1.125rem;
     line-height: 1.5;
     color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.about-me-btn {
+    display: inline-block;
+    max-width: 250px;
+    padding: 14px 48px;
+    background: var(--p-base);
+    font-weight: bold;
+    color: #111111;
+    border: 1px solid transparent;
+    transition: ease-in-out 0.3s;
+}
+
+.about-me-btn:hover {
+    background: #111111;
+    color: var(--p-base);
+    border: 1px solid var(--p-base);
+}
+
+@media (max-width: 1000px) {
+    .about-me {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-me {
+        grid-template-columns: 1fr;
+    }
+
+    .about-avatar {
+        display: none;
+    }
 }
