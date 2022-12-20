@@ -8,10 +8,17 @@
 .menu-lista {
     max-width: 300px;
     display: flex;
-    background: var(--s-base);
+    /* background: var(--s-base); */
     border-radius: 30px;
     position: relative;
     z-index: 97;
+
+    /* glassmorphism */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .menu-lista li {
@@ -30,7 +37,7 @@
 
 .indicator {
     position: absolute;
-    background: #00a08e;
+    background: #818181;
     width: 73px;
     height: 49px;
     border-radius: 30px;
