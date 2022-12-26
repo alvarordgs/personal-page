@@ -3,8 +3,6 @@
 }
 
 .projects {
-    padding-top: 60px;
-    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,29 +10,13 @@
 
 .projects h1 {
     align-self: flex-start;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    color: #fff;
-    margin-bottom: 40px;
-    position: relative;
-}
-
-.projects h1::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 16px;
-    height: 4px;
-    background: var(--p-base);
-    left: 3px;
-    top: 4px;
 }
 
 .projects-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .projects-item {

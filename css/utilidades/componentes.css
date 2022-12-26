@@ -6,3 +6,27 @@
     margin-right: auto;
     box-sizing: border-box;
 }
+
+.h1-titles {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.h1-titles::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 4px;
+    background: var(--p-base);
+    left: 3px;
+    top: 4px;
+}
+
+.padding-secao {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

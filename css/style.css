@@ -12,3 +12,6 @@
 
 /* Projects */
 @import "./secoes/projects.css";
+
+/* Skills */
+@import "./secoes/skills.css";

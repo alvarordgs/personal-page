@@ -3,12 +3,11 @@
 }
 
 .about-me {
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 40px;
-    padding-top: 120px;
-    padding-bottom: 60px;
 }
 
 .about-avatar {
@@ -21,7 +20,7 @@
 
 .about-content h1 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.5;
     color: #ffffff;
     margin-bottom: 20px;
@@ -41,12 +40,14 @@
 
 .about-me-btn {
     display: inline-block;
-    max-width: 250px;
+    max-width: 300px;
     padding: 14px 48px;
+    font-size: 1.15rem;
     background: var(--p-base);
     font-weight: bold;
     color: #111111;
     border: 1px solid transparent;
+
     transition: ease-in-out 0.3s;
 }
 
