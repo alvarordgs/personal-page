@@ -1,3 +1,35 @@
 .skills-bg {
     background: #111111;
 }
+
+.skills-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+}
+
+.skills-text {
+    color: #b2b2b2;
+}
+
+.skills-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 15px;
+}
+
+.skills-icons li {
+    background: #000000;
+    padding: 16px;
+    border: 1px solid transparent;
+    transition: ease-in-out 0.3s;
+}
+
+.skills-icons li:hover {
+    border: 1px solid var(--p-base);
+}
+
+.skills-icons img {
+    width: 60px;
+}
