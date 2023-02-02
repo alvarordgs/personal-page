@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="./assets/imgs/avatar.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/imgs/favicon-portifolio-alvaro_v1.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -90,28 +90,40 @@
     <section class="skills container padding-secao" data-scroll id="skills">
       <h1 class="h1-titles">Skills</h1>
       <div class="skills-content">
-        <div class="skills-text">
-          <p>Passe o mouse sobre os ícones para ver a descrição.</p>
-          <ul class="skills-desc">
-            <li>
-              <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+        <div class="skills-text" data-skills="desc">
+          <p>//Passe o mouse sobre os ícones para ver a descrição.</p>
+          <ul>
+            <li data-skill="html">
+              <span><strong>HTML</strong></span> é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.
+            </li>
+            <li data-skill="css">
+              <span><strong>Cascading Style Sheets</strong></span> é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags &lt;style&gt;.
+            </li>
+            <li data-skill="js">
+              <span><strong>JavaScript</strong></span> é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+            </li>
+            <li data-skill="react">
+              O <span><strong>React</strong></span> é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+            </li>
+            <li data-skill="laravel">
+              <span><strong>Laravel</strong></span> é um framework PHP livre e open-source criado por Taylor B. Otwell para o desenvolvimento de sistemas web que utilizam o padrão MVC.
             </li>
           </ul>
         </div>
-        <ul class="skills-icons">
-          <li>
+        <ul class="skills-icons" data-skills="icons">
+          <li data-icon="html">
             <img src="./assets/icons/skills-html5.svg">
           </li>
-          <li>
+          <li data-icon="css">
             <img src="./assets/icons/skills-css3.svg">
           </li>
-          <li>
+          <li data-icon="js">
             <img src="./assets/icons/skills-javascript.svg">
           </li>
-          <li>
+          <li data-icon="react">
             <img src="./assets/icons/skills-react.svg">
           </li>
-          <li>
+          <li data-icon="laravel">
             <img src="./assets/icons/skills-laravel.svg">
           </li>
         </ul>

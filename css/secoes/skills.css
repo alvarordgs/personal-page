@@ -9,13 +9,25 @@
 }
 
 .skills-text {
+    color: #fff;
+    line-height: 1.4;
+    font-size: 1.125rem;
+    max-width: 80%;
+}
+
+.skills-text p {
     color: #b2b2b2;
+}
+
+.skills-text li span {
+    color: var(--p-base);
 }
 
 .skills-icons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    align-content: flex-start;
     gap: 15px;
 }
 
@@ -32,4 +44,27 @@
 
 .skills-icons img {
     width: 60px;
+}
+
+[data-skills="desc"] li,
+[data-skills="desc"] p {
+    display: none;
+}
+
+[data-skills="desc"] li.ativo,
+[data-skills="desc"] p.ativo {
+    display: block;
+    animation: showDescription 0.3s forwards;
+}
+
+@keyframes showDescription {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 30, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
